@@ -19,7 +19,7 @@ $db = array(
     'hostname' => 'localhost',
     'username' => 'root',
     'password' => '',
-    'database' => 'anh111',
+    'database' => 'anh_da1',
 );
 
 

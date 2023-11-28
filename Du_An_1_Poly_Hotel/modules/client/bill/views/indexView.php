@@ -10,7 +10,7 @@
                 <div class="form-group">
                     <label>Tên người đặt hàng</label>
                     <div class="input-group">
-                        <input type="text" name="full_name" class="form-control" placeholder="Tên người đặt hàng" aria-describedby="basic-addon2" />
+                        <input type="text" name="full_name" class="form-control" required placeholder="Tên người đặt hàng" aria-describedby="basic-addon2" />
                     </div>
                 </div>
             </div>
@@ -18,7 +18,7 @@
                 <div class="form-group">
                     <label>Email</label>
                     <div class="input-group">
-                        <input type="text" name="email" class="form-control" placeholder="Email" aria-describedby="basic-addon2" />
+                        <input type="text" name="email" class="form-control" required placeholder="Email" aria-describedby="basic-addon2" />
                         <!-- <div class="input-group-append"><span class="input-group-text">VND</span></div> -->
                     </div>
                 </div>
@@ -27,7 +27,7 @@
                 <div class="form-group">
                     <label>Địa chỉ</label>
                     <div class="input-group">
-                        <input type="text" name="address" class="form-control" placeholder="Địa chỉ" aria-describedby="basic-addon2" />
+                        <input type="text" name="address" class="form-control" required placeholder="Địa chỉ" aria-describedby="basic-addon2" />
                         <!-- <div class="input-group-append"><span class="input-group-text">VND</span></div> -->
                     </div>
                 </div>
@@ -36,7 +36,7 @@
                 <div class="form-group">
                     <label>Số điện thoại</label>
                     <div class="input-group">
-                        <input type="text" name="numberphone" class="form-control" placeholder="Tên người đặt hàng" aria-describedby="basic-addon2" />
+                        <input type="text" name="numberphone" class="form-control" required placeholder="Tên người đặt hàng" aria-describedby="basic-addon2" />
                         <!-- <div class="input-group-append"><span class="input-group-text">VND</span></div> -->
                     </div>
                 </div>
@@ -108,6 +108,8 @@
                 </tr>
             </thead>
 
+            
+
             <tbody>
                 <?php
                 if (isset($_SESSION['cart'])) {
@@ -145,6 +147,8 @@
     </div>
 </form>
 
+
+
 <style>
     h3 {
         margin-top: 20px;
@@ -179,6 +183,7 @@
         margin-left: 10px;
         background-color: black;
         color: white;
+        text-align: center;
     }
 
     .dongydathang input:hover {
@@ -187,4 +192,3 @@
     }
 </style>
 
-<?php include "./layout/client/footer_client.php" ?>

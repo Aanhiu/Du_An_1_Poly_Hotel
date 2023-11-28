@@ -72,8 +72,10 @@
                                 <th title="Field #3">Ngày nhận phòng</th>
                                 <th title="Field #4">Ngày trả phòng</th>
                                 <th title="Field #4">Tổng tiền</th>
-                                <th title="Field #5">Hành động</th>
+                                <th title="Field #5">Hành động & Xác Nhận</th>
+    
                             </tr>
+                            
                         </thead>
                         <tbody>
                             <?php foreach ($bill_details as $detail) : ?>
@@ -110,6 +112,8 @@
                                                     <path d="M14,4.5 L14,4 C14,3.44771525 13.5522847,3 13,3 L11,3 C10.4477153,3 10,3.44771525 10,4 L10,4.5 L5.5,4.5 C5.22385763,4.5 5,4.72385763 5,5 L5,5.5 C5,5.77614237 5.22385763,6 5.5,6 L18.5,6 C18.7761424,6 19,5.77614237 19,5.5 L19,5 C19,4.72385763 18.7761424,4.5 18.5,4.5 L14,4.5 Z" fill="#000000" opacity="0.3"></path>
                                                 </g>
                                             </svg> </span> </a>
+
+                                           
                                         </span>
                                     </td>
                                    

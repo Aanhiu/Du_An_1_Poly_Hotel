@@ -91,12 +91,12 @@
                                     <img src="/Du_An_1_Poly_Hotel/assets2/images/about/about-author.jpg" alt="Author">
                                 </div>
                                 <div class="description">
-                                    <h5>Bùi Văn Ánh</h5>
+                                    <h5></h5>
                                     <span>Developer Web</span>
                                 </div>
                                 <div class="signature">
                                     <img src="/Du_An_1_Poly_Hotel/assets2/images/about/signature.png" alt="Signature">
-                                    <p>Bùi Văn Ánh</p>
+                                    <p></p>
                                 </div>
                             </div>
                         </div>
@@ -116,7 +116,7 @@
         <div class="row mt-4">
             <div class="form-group col-md-9 col-sm-12 mt-2">
                 <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" class="form-control pl-5" id="exampleInput" placeholder="Tìm kiếm..." name="keyword">
+                <input  style="border: 2px black solid;" type="text" class="form-control pl-5" id="exampleInput" placeholder="Tìm kiếm..." name="keyword">
             </div>
             <div class="form-group col-md-3 col-sm-12 mt-2">
                 <!-- <button type="submit" class="form-control bg-success" >Tìm kếm</button> -->
@@ -129,7 +129,7 @@
         <div class="row">
             <div class="form-group col-md-6 col-sm-12">
                 <select id="my-select" class="form-control" name="">
-                    <option value="">Lọc theo giá</option>
+                    <option value="" style="border: 2px black solid;">Lọc theo giá</option>
                     <option>Dưới 1tr</option>
                     <option>Trên 1tr</option>
                     <option>Dưới 500k</option>
@@ -140,7 +140,7 @@
 
             <div class="form-group col-md-6 col-sm-12">
                 <div class="dropdown show">
-                    <a class="btn border dropdown-toggle col-12 " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="btn border dropdown-toggle col-12 " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  style="border: 2px black solid;">
                     Lọc theo loại phòng
                     </a>
                     <ul class="dropdown-menu bg-color1 col-12" aria-labelledby="dropdownMenuLink">
@@ -202,12 +202,14 @@
                     </div>
                 </div>
                 <?php endforeach ?>
+
                 </div>
             </div>
 
             <div class="swiper-button-next swiper-navBtn"></div>
             <div class="swiper-button-prev swiper-navBtn"></div> <br>
             <div class="swiper-pagination"></div>
+            
         </div>
     </div>
 
@@ -341,6 +343,12 @@
 
 </div>
 </div>
+
+
+
+
+
+
 
 
 <!--End dịch vụ tiện ích-->

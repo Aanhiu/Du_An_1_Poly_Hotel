@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang chủ Khách Sạn Ánh Đẹp Troai</title>
+    <title>Trang chủ Khách Sạn AYBITI</title>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -83,7 +83,7 @@
 
                                         <li class=""> <a class="nav-link" href="/du_an_1_poly_hotel/?role=client">Trang chủ<span class="sr-only">(current)</span></a> </li>
 
-                                        <li class=""><a href="">Phòng</a>
+                                        <!-- <li class=""><a href="">Phòng</a> -->
 
                                         </li>
 
@@ -103,9 +103,11 @@
 
                                         <li><a href="/du_an_1_poly_hotel/?role=client&mod=news&action=index">Tin tức</a></li>
 
+                                        <li><a href="/du_an_1_poly_hotel/?role=client&mod=contact&action=index">Liên hệ</a> </li>
+
                                         <li><a href="/du_an_1_poly_hotel/?role=client&mod=introduce&action=index">Giới thiệu</a> </li>
 
-                                        <li><a href="/du_an_1_poly_hotel/?role=client&mod=contact&action=index">Liên hệ</a> </li>
+                                        
 
                                       
                                     </ul>
@@ -121,16 +123,18 @@
                         <div class="menu-btns">
                         <?php if(isset($_SESSION['auth'])){ ?>
                     <ul class="navbar-nav ml-auto">
-                       <a href="" style="margin-right:10px;"><span class="rounded-circle"> <i class="fa-solid fa-heart" style="color:white; margin:7px 0px 0px 5px ; font-size:22px;"></i></span></a> 
+
+                       <!-- <a href="" style="margin-right:10px;"><span class="rounded-circle"> <i class="fa-solid fa-heart" style="color:white; margin:7px 0px 0px 5px ; font-size:22px;"></i></span></a>  -->
+
                         <a href="/du_an_1_poly_hotel/?role=client&mod=auth&action=infomation"><span class="rounded-circle pl-1"> <i style="color:white; font-size:22px; margin:5px 0px 0px 3px ;" class="fa-regular fa-user"></i></span></a>
                         
                     </ul>
                     <?php }else{ ?>
-                        <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
+                        <ul class="navbar-nav ml-auto" style="font-size: 20px;">
+                    <li class="nav-item" >
                         <a class="nav-link" href="/du_an_1_poly_hotel/?role=client&mod=auth&action=sign_up">Đăng ký</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" >
                         <a class="nav-link" href="/du_an_1_poly_hotel/?role=client&mod=auth">Đăng nhập</a>
                     </li>
                 </ul>
@@ -151,7 +155,7 @@
                         <div class="row justify-content-end align-items-center">
                             <div class="col-xl-3">
                                 <div class="slider-content">
-                                    <span class="sub-title"><i class="fal fa-arrow-right"></i> Chào mừng đến với Ánh</span>
+                                    <span class="sub-title"><i class="fal fa-arrow-right"></i> Chào mừng đến với </span>
                                     <h1><span>Trải nhiệm không gian sang trong ngay !</span></h1>
                                     <a href="room-grid.html" class="theme-btn">Xem các phong ngay bây giờ<i class="far fa-angle-right"></i></a>
                                 </div>
@@ -169,7 +173,7 @@
                         <div class="row justify-content-end align-items-center">
                             <div class="col-xl-3">
                                 <div class="slider-content">
-                                    <span class="sub-title"><i class="fal fa-arrow-right"></i> Chào mừng đến với Ánh</span>
+                                    <span class="sub-title"><i class="fal fa-arrow-right"></i> Chào mừng đến với </span>
                                     <h1><span>Trải nhiệm không gian sang trong ngay !</span></h1>
                                     <a href="room-grid.html" class="theme-btn">Xem các phong ngay bây giờ<i class="far fa-angle-right"></i></a>
                                 </div>
@@ -187,7 +191,7 @@
                         <div class="row justify-content-end align-items-center">
                             <div class="col-xl-3">
                                 <div class="slider-content">
-                                    <span class="sub-title"><i class="fal fa-arrow-right"></i> Chào mừng đến với Ánh</span>
+                                    <span class="sub-title"><i class="fal fa-arrow-right"></i> Chào mừng đến với </span>
                                     <h1><span>Trải nhiệm không gian sang trong ngay !</span></h1>
                                     <a href="room-grid.html" class="theme-btn">Xem các phong ngay bây giờ<i class="far fa-angle-right"></i></a>
                                 </div>
@@ -205,7 +209,7 @@
                         <div class="row justify-content-end align-items-center">
                             <div class="col-xl-3">
                                 <div class="slider-content">
-                                    <span class="sub-title"><i class="fal fa-arrow-right"></i> Chào mừng đến với Ánh</span>
+                                    <span class="sub-title"><i class="fal fa-arrow-right"></i> Chào mừng đến Hotel</span>
                                     <h1><span>Trải nhiệm không gian sang trong ngay !</span></h1>
                                     <a href="room-grid.html" class="theme-btn">Xem các phong ngay bây giờ<i class="far fa-angle-right"></i></a>
                                 </div>

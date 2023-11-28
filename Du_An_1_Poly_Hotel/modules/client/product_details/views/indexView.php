@@ -28,7 +28,7 @@
       <div class="row">
         <div class="col-md-8">
           <div>
-            <h2 value=""> <?= $productions['name']?></h2>
+            <h2 value=""> <?= $productions['name']?> Phòng cho 4 người : Gồm người lớn , trẻ em </h2>
             <p>Địa chỉ: Trịnh Văn Bô, Hà Nội</p>
           </div>
           <div>
@@ -55,7 +55,7 @@
             </form>
 
               <div class="mt-3 text-danger">
-                <h3>Giá:$<?= $productions['price']?></h3> 
+                <h3>Giá:$<?= $productions['price']?> / Đêm</h3> 
                 <p>Lưu ý: Giá phòng sẽ thay đổi theo từng ngày từng thời điểm(ngày lễ, tết, cuối tuần)</p>
               </div>
             
@@ -74,7 +74,45 @@
           </div>
         </div>
       </div>
+
+
+      <style>
+        /* Định dạng danh sách ul */
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Định dạng mục danh sách li */
+        li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        /* Biểu tượng mục danh sách */
+        li::before {
+            content: "●"; /* Biểu tượng bullet */
+            color: #007BFF; /* Màu của bullet */
+            font-size: 18px;
+            position: absolute;
+            left: 0;
+        }
+    </style>  
       <div class="">
+
+      <h3>Dịch Vụ Phòng Có :</h3>
+    <ul>
+       
+        <li>Dịch vụ 1: Máy lạnh.</li>
+        <li>Dịch vụ 2: Wifi.</li>
+        <li>Dịch vụ 3: Đồ ăn nhanh</li>
+        
+        <li>Dịch vụ 4: Khăn Tắm , Đồ vệ sinh Cá nhân</li>
+    </ul>
+
+
         <h3>Mô tả</h3>
         <div>
        
@@ -139,7 +177,7 @@
 
     <!--Sản phẩm liên quan-->
       <div class="container">
-          <h3>Sản phẩm liên quan</h3>
+          <h3>Các Phòng cùng loại : </h3>
       
         <div class="row">
          
@@ -176,5 +214,5 @@
     </div>
     <!--End Google Map-->
 <?php require "layout/client/footer_client.php" ?>
-
+   <!--End Google Map-->
 

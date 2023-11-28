@@ -14,6 +14,7 @@ function indexAction()
             ]);
       } else {
             header('location:/du_an_1_poly_hotel/?role=client&mod=auth');
+            
       }
 }
 function indexPostAction()
@@ -120,7 +121,7 @@ function insertBillPostAction()
 
                   ]);
 
-                  $title = "Thông báo dịch vụ đặt phòng tại Poly's Hotel";
+                  $title = "Thông báo dịch vụ đặt phòng tại  Hotel AYBITI";
                   $content = "<p>Xin chào,<b>$full_name</b></p>
                               <p>Cảm ơn <b>$full_name</b> đã sử dụng dịch vụ khách sạn của chúng tôi - khách sạn Poly's Hotel.</p>
                               
@@ -146,7 +147,9 @@ function insertBillPostAction()
                   header("Refresh: 0.5; URL=/du_an_1_poly_hotel/?role=client&mod=bill&action=index");
             }
       }
+      //header('location://http://localhost:3000/du_an_1_poly_hotel/?role=client');
       unset($_SESSION['cart']);
+      
 }
 
 function listAction()
@@ -175,3 +178,5 @@ function deleteAction()
  
 
 }
+
+

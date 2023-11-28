@@ -2,7 +2,7 @@
 <div class="user">
     <div class="user1">
         <div class="item1">
-            <img src="public/image/addfb.png" alt="" style="width:200px; margin-left:10px;">
+            <!-- <img src="public/image/addfb.png" alt="" style="width:200px; margin-left:10px;"> -->
             <p style="margin-left:5px;"><?= $_SESSION["auth"]['full_name']  ?></p>
         </div>
         <div class="item2">
@@ -12,15 +12,17 @@
             <?php } ?>
 
         </div>
-        <div class="item3">
-            <a href="/du_an_1_poly_hotel/?role=client&mod=bill&action=index">Giỏ hàng</a>
-        </div>
+        <!-- <div class="item3">
+            <a href="/du_an_1_poly_hotel/?role=client&mod=bill&action=index">Phong chờ đặt </a>
+        </div> -->
         <div class="item3">
             <a href="/du_an_1_poly_hotel/?role=client&mod=bill&action=list">Danh sách đặt lịch</a>
         </div>
-        <div class="item4">
+
+        <!-- <div class="item4">
             <a href="">Danh sách yêu thích</a>
-        </div>
+        </div> -->
+
         <div class="item2">
             <a href="/du_an_1_poly_hotel/?role=client&mod=auth&action=forgotPassword">Quên mật khẩu</a>
         </div>
@@ -41,7 +43,12 @@
                         <th>Ngày nhận phòng</th>
                         <th>Ngày trả phòng</th>
                         <th>Tổng tiền</th>
+                        <th>Trạng Thái</th>
                     </thead>
+
+                    
+
+
                     <tbody>
                         <?php foreach ($bill_details as $value) {
                             echo '
@@ -51,6 +58,7 @@
                                     <td>' . $value['check_in_date'] . '</td>
                                     <td>' . $value['check_out_date'] . '</td>
                                     <td>' . $value['price'] . '</td>
+                                    <td>' . $value['status'] . '<h5> Đã Đặt Thành Công <h5/>' .'</td>
                                     </tr>
                                     
                                     ';

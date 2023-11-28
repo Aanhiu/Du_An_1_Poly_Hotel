@@ -15,15 +15,18 @@
             <?php } ?>
 
         </div>
-        <div class="item3">
-            <a href="/du_an_1_poly_hotel/?role=client&mod=bill&action=index">Giỏ hàng</a>
-        </div>
+        <!-- <div class="item3">
+            <a href="/du_an_1_poly_hotel/?role=client&mod=bill&action=index">Đơn phong đang chờ</a>
+        </div> -->
+
+       
         <div class="item3">
             <a href="/du_an_1_poly_hotel/?role=client&mod=bill&action=list">Danh sách đặt lịch</a>
         </div>
-        <div class="item4">
+ <!-- danh sách yêu thich-->
+        <!-- <div class="item4">
             <a href="">Danh sách yêu thích</a>
-        </div>
+        </div> -->
         <div class="item2">
             <a href="/du_an_1_poly_hotel/?role=client&mod=auth&action=forgotPassword">Quên mật khẩu</a>
         </div>

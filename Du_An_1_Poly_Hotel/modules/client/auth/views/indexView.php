@@ -50,11 +50,11 @@
                         </div>
                     </form>
                     <div  style="margin-bottom:40px ;">
-                        Bạn chưa có tài khoản? <a href="dangky.html" style="color:#00a79e;">Đăng ký</a>
+                        Bạn chưa có tài khoản? <a href="/du_an_1_poly_hotel/?role=client&mod=auth&action=sign_up" style="color:#00a79e;">Đăng ký</a>
                     </div>
                  
                 </div>
             </div>
         </div>
         <!--ENd Đăng nhập-->
-<?php require "layout/client/footer_client.php" ?>
+       

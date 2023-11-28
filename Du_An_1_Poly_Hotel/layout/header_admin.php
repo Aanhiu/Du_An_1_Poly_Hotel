@@ -89,6 +89,7 @@
 									<!--end::Svg Icon-->
 								</span>
 								<span class="menu-text">Tổng quan</span>
+								<a style="border: 2px blue solid; font-size: 20px;" href="/du_an_1_poly_hotel/?role=client">Vể Trang Người Dùng</a>
 							</a>
 						</li>
 						<li class="menu-section">
@@ -224,8 +225,8 @@
 									</a>
 								</li>
 								<li class="menu-item menu-item-submenu" data-menu-toggle="click" aria-haspopup="true">
-									<a href="/du_an_1_poly_hotel/?role=client" class="menu-link menu-toggle">
-										<span class="menu-text">Trang khách hàng</span>
+									<a href="/du_an_1_poly_hotel/?role=client" class="menu-link menu-toggle"> 
+										
 										<i class="menu-arrow"></i>
 									</a>
 								</li>

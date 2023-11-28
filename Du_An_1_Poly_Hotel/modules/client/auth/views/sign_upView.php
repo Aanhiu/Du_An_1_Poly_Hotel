@@ -74,4 +74,3 @@
             </div>
         </div>
         <!--ENd Đăng ký-->
-<?php require "layout/client/footer_client.php" ?>
